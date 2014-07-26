@@ -1,7 +1,10 @@
-## Put comments here that give an overall description of what your
-## functions do
 
-## Write a short comment describing this function.
+#These functions allow to solve the inverse of a matrix and save 
+#its value. If the matrix is consulted again, the cached value is returned.
+
+
+##The makeCacheMatrix function returns a list with a set of functions
+##that allows to cached the matrix and access it through setinvma and  getinvma functions
 
 makeCacheMatrix <- function(m){
   
@@ -21,7 +24,8 @@ makeCacheMatrix <- function(m){
 }
 
 
-## Write a short comment describing this function.
+#The cacheSolve returns a cached value if available. otherwise 
+#calculates its value and caches by setinvma function
 
 cacheSolve <- function(m){
   
@@ -38,5 +42,5 @@ cacheSolve <- function(m){
   i
 }
 
-## Return a matrix that is the inverse of 'x'
+
 
