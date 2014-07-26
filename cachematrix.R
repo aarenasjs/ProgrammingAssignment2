@@ -1,10 +1,10 @@
 
-#These functions allow to solve the inverse of a matrix and save 
+#These functions allows to solve the inverse of a matrix and save 
 #its value. If the matrix is consulted again, the cached value is returned.
 
 
-##The makeCacheMatrix function returns a list with a set of functions
-##that allows to cached the matrix and access it through setinvma and  getinvma functions
+#The makeCacheMatrix function returns a list with a set of functions
+#that allows to cached the matrix and access it through setinvma and  getinvma functions respectively.
 
 makeCacheMatrix <- function(m){
   
